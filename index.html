@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CODEMIX — Java vývojári na zákazku</title>
+<meta name="description" content="CODEMIX — dvojica Java vývojárov tvoriaca spoľahlivé webové a backendové aplikácie na mieru pre firmy aj jednotlivcov.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="bg-glow" aria-hidden="true"></div>
+
+<header class="site-header" id="header">
+  <nav class="nav container">
+    <a href="#hero" class="logo">CODE<span class="accent">MIX</span></a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Otvoriť menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#o-mne" class="nav-link">O nás</a></li>
+      <li><a href="#zrucnosti" class="nav-link">Zručnosti</a></li>
+      <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
+      <li><a href="#kontakt" class="nav-link">Kontakt</a></li>
+      <li><a href="#kontakt" class="btn btn-small">Kontaktovať nás</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="hero" class="hero container">
+    <p class="eyebrow fade-in">Java vývojári &middot; backend &amp; webové aplikácie</p>
+    <h1 class="fade-in">
+      Sme <span class="accent">CODEMIX</span>.<br>
+      Stavíme aplikácie, ktoré <span class="accent">fungujú</span>.
+    </h1>
+    <p class="hero-subtitle fade-in">
+      Navrhujeme a vyvíjame robustné Java &amp; Spring Boot aplikácie a moderné webové riešenia
+      na mieru — od nápadu až po nasadenie.
+    </p>
+    <div class="hero-actions fade-in">
+      <a href="#portfolio" class="btn btn-primary">Pozrieť portfólio</a>
+      <a href="#kontakt" class="btn btn-ghost">Kontaktovať nás</a>
+    </div>
+  </section>
+
+  <!-- O MNE -->
+  <section id="o-mne" class="section container">
+    <p class="section-label fade-in">01 &mdash; O nás</p>
+    <div class="about-grid">
+      <div class="fade-in">
+        <h2>Dvaja Java vývojári zameraní na spoľahlivé riešenia</h2>
+        <p>
+          Sme CODEMIX — dvojica vývojárov špecializujúca sa na Java a Spring Boot ekosystém.
+          Radi premieňame nejasné zadania na prehľadné, udržateľné a dobre otestované aplikácie —
+          od jednoduchých webov až po komplexnejšie backendové systémy a API.
+        </p>
+        <p>
+          Pracujeme ako tím, komunikujeme priamo a bez zbytočných komplikácií.
+          Cieľom je vždy to isté: aplikácia, ktorá rieši reálny problém a dá sa
+          jednoducho ďalej rozvíjať.
+        </p>
+      </div>
+      <div class="about-stats fade-in">
+        <div class="stat-card">
+          <span class="stat-number">X+</span>
+          <span class="stat-label">rokov skúseností</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">X</span>
+          <span class="stat-label">dokončených projektov</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">na mieru šité riešenia</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ZRUCNOSTI -->
+  <section id="zrucnosti" class="section container">
+    <p class="section-label fade-in">02 &mdash; Zručnosti</p>
+    <h2 class="fade-in">Technológie, s ktorými pracujem</h2>
+
+    <div class="skills-grid fade-in">
+      <div class="skill-group">
+        <h3>Backend</h3>
+        <div class="badges">
+          <span class="badge">Java</span>
+          <span class="badge">Spring Boot</span>
+          <span class="badge">Hibernate / JPA</span>
+          <span class="badge">REST API</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Databázy</h3>
+        <div class="badges">
+          <span class="badge">PostgreSQL</span>
+          <span class="badge">MySQL</span>
+          <span class="badge">MongoDB</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Nástroje &amp; DevOps</h3>
+        <div class="badges">
+          <span class="badge">Git</span>
+          <span class="badge">Maven / Gradle</span>
+          <span class="badge">Docker</span>
+          <span class="badge">CI/CD</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Frontend</h3>
+        <div class="badges">
+          <span class="badge">HTML / CSS</span>
+          <span class="badge">JavaScript</span>
+          <span class="badge">Thymeleaf</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="section container">
+    <p class="section-label fade-in">03 &mdash; Portfólio</p>
+    <h2 class="fade-in">Vybrané projekty</h2>
+    <p class="section-intro fade-in">Ukážka projektov — každú kartu si vieš nahradiť vlastným projektom (názov, popis, technológie, odkaz).</p>
+
+    <div class="portfolio-grid">
+      <article class="project-card fade-in">
+        <div class="project-thumb" aria-hidden="true">01</div>
+        <div class="project-body">
+          <h3>Názov projektu</h3>
+          <p>Krátky popis toho, čo projekt rieši a aký prínos mal pre klienta alebo koncového používateľa.</p>
+          <div class="tags">
+            <span class="tag">Java</span>
+            <span class="tag">Spring Boot</span>
+            <span class="tag">PostgreSQL</span>
+          </div>
+          <a href="#" class="project-link">Zobraziť projekt &rarr;</a>
+        </div>
+      </article>
+
+      <article class="project-card fade-in">
+        <div class="project-thumb" aria-hidden="true">02</div>
+        <div class="project-body">
+          <h3>Názov projektu</h3>
+          <p>Krátky popis toho, čo projekt rieši a aký prínos mal pre klienta alebo koncového používateľa.</p>
+          <div class="tags">
+            <span class="tag">Java</span>
+            <span class="tag">REST API</span>
+            <span class="tag">Docker</span>
+          </div>
+          <a href="#" class="project-link">Zobraziť projekt &rarr;</a>
+        </div>
+      </article>
+
+      <article class="project-card fade-in">
+        <div class="project-thumb" aria-hidden="true">03</div>
+        <div class="project-body">
+          <h3>Názov projektu</h3>
+          <p>Krátky popis toho, čo projekt rieši a aký prínos mal pre klienta alebo koncového používateľa.</p>
+          <div class="tags">
+            <span class="tag">Spring Boot</span>
+            <span class="tag">MySQL</span>
+          </div>
+          <a href="#" class="project-link">Zobraziť projekt &rarr;</a>
+        </div>
+      </article>
+
+      <article class="project-card fade-in">
+        <div class="project-thumb" aria-hidden="true">04</div>
+        <div class="project-body">
+          <h3>Názov projektu</h3>
+          <p>Krátky popis toho, čo projekt rieši a aký prínos mal pre klienta alebo koncového používateľa.</p>
+          <div class="tags">
+            <span class="tag">Java</span>
+            <span class="tag">Hibernate</span>
+          </div>
+          <a href="#" class="project-link">Zobraziť projekt &rarr;</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+  <section id="kontakt" class="section container">
+    <p class="section-label fade-in">04 &mdash; Kontakt</p>
+    <div class="contact-box fade-in">
+      <h2>Máte nápad na aplikáciu?</h2>
+      <p>Napíšte nám, o čo ide — ozveme sa vám s návrhom riešenia a odhadom.</p>
+      <a href="mailto:info@codemix.sk" class="btn btn-primary btn-large">info@codemix.sk</a>
+      <div class="social-links">
+        <a href="https://linkedin.com/company/codemix" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/codemix" target="_blank" rel="noopener">GitHub</a>
+        <a href="tel:+421900000000">+421 900 000 000</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>&copy; <span id="year"></span> CODEMIX. Všetky práva vyhradené.</span>
+    <a href="#hero" class="back-to-top">Hore &uarr;</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
